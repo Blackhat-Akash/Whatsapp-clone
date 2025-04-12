@@ -1,0 +1,35 @@
+/* Must be first line if using @use */
+@use "@ctrl/ngx-emoji-mart/picker" as emoji;
+
+/* Then other imports */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8dadcc;
+}
+
+.gray-bg {
+  background-color: #b1c3df;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  >img {
+    width: 100%;
+  }
+}
